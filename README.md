@@ -51,5 +51,8 @@ each specific role can choose to (or not to) inherit or include. It
 allows us to provide a default configuration for servers that don't
 provide us information about the specific role if that agent.
 
+An example of how you might want to start your role, and where roles
+should exist is included in *manifests/example.pp*.
+
 [1]: http://github.com/monokrome/ec2-rolegen	"EC2 Rolegen"
 
