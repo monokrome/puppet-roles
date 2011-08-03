@@ -37,8 +37,7 @@ the functionality of roles to all of your agents:
 
     if ($role != undef)
     {
-        $role_class = "roles::${role}"
-        include $role_class
+        include "roles::${role}"
     }
     else
     {
