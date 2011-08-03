@@ -4,7 +4,7 @@ Puppet Roles
 What is it?
 -----------
 
-This is a puppet module which allows you to sign roles to nodes via a
+This is a puppet module which allows you to assign roles to nodes via a
 configuration file (default is /etc/role) which can contain a string
 representing the role that a specific agent performs. You can then
 easily configure your agents by simply retreiving the contents of
