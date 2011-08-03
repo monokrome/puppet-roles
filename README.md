@@ -35,10 +35,9 @@ master and agent - post an issue if you have details.
 Now, your site.pp can be as simple as the following in order to provide
 the functionality of roles to all of your agents:
 
-    $role_class = "roles::${role}"
-
     if ($role != undef)
     {
+        $role_class = "roles::${role}"
         include $role_class
     }
     else
