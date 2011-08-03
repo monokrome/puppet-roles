@@ -45,10 +45,11 @@ the functionality of roles to all of your agents:
     }
 
 *NOTE:* The preceding code will also make use of our base class when no
-role has been specified. Although, each specific role can choose to (or
-not to) inherit or include - it's nice for agents without roles to also
-inherit some basic configuration so that you can make use of them more
-quickly.
+role has been specified. Although each specific role can choose to (or
+not to) inherit or include this base class - it's nice for agents
+without roles to also inherit some basic configuration so that you can
+make use of them more quickly. This is especially useful when starting
+up agents for performing quick maintenance.
 
 An example of how you might want to start your role, and where roles
 should exist is included in *manifests/example.pp*.
