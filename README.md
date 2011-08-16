@@ -27,10 +27,8 @@ using an init script, cloud init, kickstart, or something related to those:
 configurations composed of multiple types of scripts in the different
 formats supported by cloud-init, take a look at [ec2-rolegen][1].
 
-Now, if you have pluginsync set to true on your server and client - you
-will be able to access the *role* fact on your puppetmaster via the $role
-varialble. This configuration may not actually be required on both your
-master and agent - post an issue if you have details.
+Now, if you have pluginsync set to true on your agents - you will be able to
+access the *role* fact on your puppetmaster via the $role varialble.
 
 Now, your site.pp can be as simple as the following in order to provide
 the functionality of roles to all of your agents:
